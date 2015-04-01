@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "WildcardGestureRecognizer.h"
+#import "ADCAnnotationView.h"
 
 /* Default Location */
 #define ADC_LATITUDE 38.916440
@@ -201,14 +202,17 @@ didChangeDragState:(MKAnnotationViewDragState)newState
 {
     if ([annotation isKindOfClass:[MKUserLocation class]])
         return nil;
-    MKPinAnnotationView *annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"pin"];
-    [annotationView setDraggable:YES];
-    annotationView.pinColor = MKPinAnnotationColorPurple;
+    static NSString *defaultPinID = @"pin";
+    MKPinAnnotationView *view = (MKPinAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:defaultPinID];
+    if ( view == nil )
+        view = [[MKPinAnnotationView alloc]
+                initWithAnnotation:annotation reuseIdentifier:defaultPinID];
     
-    [annotationView setSelected:YES animated:YES];
-    return [annotationView init];
+    [view setDraggable:YES];
+    //view.image = [UIImage imageNamed:@"PinIcon.png"];
+    
+    return view;
 }
-
 - (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id < MKOverlay >)overlay
 {
     circleView = [[CustomMKCircleOverlay alloc] initWithCircle:overlay];

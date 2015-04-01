@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		E60099DA1ACB35FD00868360 /* YHAnimatedCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E60099D91ACB35FD00868360 /* YHAnimatedCircleView.m */; };
 		E60099DC1ACB361B00868360 /* redCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = E60099DB1ACB361B00868360 /* redCircle.png */; };
+		E60099E01ACC445700868360 /* PinIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E60099DD1ACC445700868360 /* PinIcon.png */; };
+		E60099E11ACC445700868360 /* PinIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E60099DE1ACC445700868360 /* PinIcon@2x.png */; };
+		E60099E21ACC445700868360 /* PinIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E60099DF1ACC445700868360 /* PinIcon@3x.png */; };
+		E6A051BC1ACC4B4D00C7602C /* ADCAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A051BB1ACC4B4D00C7602C /* ADCAnnotationView.m */; };
 		E6DA31E71AC5D5F600C57599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA31E61AC5D5F600C57599 /* main.m */; };
 		E6DA31EA1AC5D5F600C57599 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA31E91AC5D5F600C57599 /* AppDelegate.m */; };
 		E6DA31ED1AC5D5F700C57599 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA31EC1AC5D5F700C57599 /* ViewController.m */; };
@@ -35,6 +39,11 @@
 		E60099D81ACB35FD00868360 /* YHAnimatedCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHAnimatedCircleView.h; sourceTree = "<group>"; };
 		E60099D91ACB35FD00868360 /* YHAnimatedCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHAnimatedCircleView.m; sourceTree = "<group>"; };
 		E60099DB1ACB361B00868360 /* redCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redCircle.png; sourceTree = "<group>"; };
+		E60099DD1ACC445700868360 /* PinIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinIcon.png; sourceTree = "<group>"; };
+		E60099DE1ACC445700868360 /* PinIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PinIcon@2x.png"; sourceTree = "<group>"; };
+		E60099DF1ACC445700868360 /* PinIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PinIcon@3x.png"; sourceTree = "<group>"; };
+		E6A051BA1ACC4B4D00C7602C /* ADCAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCAnnotationView.h; sourceTree = "<group>"; };
+		E6A051BB1ACC4B4D00C7602C /* ADCAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCAnnotationView.m; sourceTree = "<group>"; };
 		E6DA31E11AC5D5F600C57599 /* MyMapOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMapOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6DA31E51AC5D5F600C57599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6DA31E61AC5D5F600C57599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -78,6 +87,9 @@
 		E6DA31D81AC5D5F600C57599 = {
 			isa = PBXGroup;
 			children = (
+				E60099DD1ACC445700868360 /* PinIcon.png */,
+				E60099DE1ACC445700868360 /* PinIcon@2x.png */,
+				E60099DF1ACC445700868360 /* PinIcon@3x.png */,
 				E60099DB1ACB361B00868360 /* redCircle.png */,
 				E60099D81ACB35FD00868360 /* YHAnimatedCircleView.h */,
 				E60099D91ACB35FD00868360 /* YHAnimatedCircleView.m */,
@@ -108,6 +120,8 @@
 				E6DA31E91AC5D5F600C57599 /* AppDelegate.m */,
 				E6DA31EB1AC5D5F600C57599 /* ViewController.h */,
 				E6DA31EC1AC5D5F700C57599 /* ViewController.m */,
+				E6A051BA1ACC4B4D00C7602C /* ADCAnnotationView.h */,
+				E6A051BB1ACC4B4D00C7602C /* ADCAnnotationView.m */,
 				E6DA31EE1AC5D5F700C57599 /* Main.storyboard */,
 				E6DA31F11AC5D5F700C57599 /* Images.xcassets */,
 				E6DA31F31AC5D5F700C57599 /* LaunchScreen.xib */,
@@ -225,8 +239,11 @@
 			files = (
 				E6DA31F01AC5D5F700C57599 /* Main.storyboard in Resources */,
 				E60099DC1ACB361B00868360 /* redCircle.png in Resources */,
+				E60099E01ACC445700868360 /* PinIcon.png in Resources */,
+				E60099E11ACC445700868360 /* PinIcon@2x.png in Resources */,
 				E6DA31F51AC5D5F700C57599 /* LaunchScreen.xib in Resources */,
 				E6DA31F21AC5D5F700C57599 /* Images.xcassets in Resources */,
+				E60099E21ACC445700868360 /* PinIcon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6A051BC1ACC4B4D00C7602C /* ADCAnnotationView.m in Sources */,
 				E6DA320F1AC5D60F00C57599 /* CustomMapOverlay.m in Sources */,
 				E6DA31ED1AC5D5F700C57599 /* ViewController.m in Sources */,
 				E60099DA1ACB35FD00868360 /* YHAnimatedCircleView.m in Sources */,

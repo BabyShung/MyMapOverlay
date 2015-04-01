@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E60099DA1ACB35FD00868360 /* YHAnimatedCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E60099D91ACB35FD00868360 /* YHAnimatedCircleView.m */; };
+		E60099DC1ACB361B00868360 /* redCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = E60099DB1ACB361B00868360 /* redCircle.png */; };
 		E6DA31E71AC5D5F600C57599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA31E61AC5D5F600C57599 /* main.m */; };
 		E6DA31EA1AC5D5F600C57599 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA31E91AC5D5F600C57599 /* AppDelegate.m */; };
 		E6DA31ED1AC5D5F700C57599 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA31EC1AC5D5F700C57599 /* ViewController.m */; };
@@ -14,6 +16,9 @@
 		E6DA31F21AC5D5F700C57599 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6DA31F11AC5D5F700C57599 /* Images.xcassets */; };
 		E6DA31F51AC5D5F700C57599 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6DA31F31AC5D5F700C57599 /* LaunchScreen.xib */; };
 		E6DA32011AC5D5F700C57599 /* MyMapOverlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA32001AC5D5F700C57599 /* MyMapOverlayTests.m */; };
+		E6DA320F1AC5D60F00C57599 /* CustomMapOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA320E1AC5D60F00C57599 /* CustomMapOverlay.m */; };
+		E6DA32111AC5D62600C57599 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DA32101AC5D62600C57599 /* MapKit.framework */; };
+		E6DA32141AC5D72100C57599 /* WildcardGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA32131AC5D72100C57599 /* WildcardGestureRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E60099D81ACB35FD00868360 /* YHAnimatedCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHAnimatedCircleView.h; sourceTree = "<group>"; };
+		E60099D91ACB35FD00868360 /* YHAnimatedCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHAnimatedCircleView.m; sourceTree = "<group>"; };
+		E60099DB1ACB361B00868360 /* redCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redCircle.png; sourceTree = "<group>"; };
 		E6DA31E11AC5D5F600C57599 /* MyMapOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMapOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6DA31E51AC5D5F600C57599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6DA31E61AC5D5F600C57599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,12 @@
 		E6DA31FA1AC5D5F700C57599 /* MyMapOverlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMapOverlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6DA31FF1AC5D5F700C57599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6DA32001AC5D5F700C57599 /* MyMapOverlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMapOverlayTests.m; sourceTree = "<group>"; };
+		E6DA320D1AC5D60F00C57599 /* CustomMapOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMapOverlay.h; sourceTree = "<group>"; };
+		E6DA320E1AC5D60F00C57599 /* CustomMapOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMapOverlay.m; sourceTree = "<group>"; };
+		E6DA32101AC5D62600C57599 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E6DA32121AC5D72100C57599 /* WildcardGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WildcardGestureRecognizer.h; sourceTree = "<group>"; };
+		E6DA32131AC5D72100C57599 /* WildcardGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WildcardGestureRecognizer.m; sourceTree = "<group>"; };
+		E6DA32151AC5D78800C57599 /* MyMapOverlay.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMapOverlay.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6DA32111AC5D62600C57599 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,10 @@
 		E6DA31D81AC5D5F600C57599 = {
 			isa = PBXGroup;
 			children = (
+				E60099DB1ACB361B00868360 /* redCircle.png */,
+				E60099D81ACB35FD00868360 /* YHAnimatedCircleView.h */,
+				E60099D91ACB35FD00868360 /* YHAnimatedCircleView.m */,
+				E6DA32101AC5D62600C57599 /* MapKit.framework */,
 				E6DA31E31AC5D5F600C57599 /* MyMapOverlay */,
 				E6DA31FD1AC5D5F700C57599 /* MyMapOverlayTests */,
 				E6DA31E21AC5D5F600C57599 /* Products */,
@@ -81,6 +100,10 @@
 		E6DA31E31AC5D5F600C57599 /* MyMapOverlay */ = {
 			isa = PBXGroup;
 			children = (
+				E6DA32121AC5D72100C57599 /* WildcardGestureRecognizer.h */,
+				E6DA32131AC5D72100C57599 /* WildcardGestureRecognizer.m */,
+				E6DA320D1AC5D60F00C57599 /* CustomMapOverlay.h */,
+				E6DA320E1AC5D60F00C57599 /* CustomMapOverlay.m */,
 				E6DA31E81AC5D5F600C57599 /* AppDelegate.h */,
 				E6DA31E91AC5D5F600C57599 /* AppDelegate.m */,
 				E6DA31EB1AC5D5F600C57599 /* ViewController.h */,
@@ -98,6 +121,7 @@
 			children = (
 				E6DA31E51AC5D5F600C57599 /* Info.plist */,
 				E6DA31E61AC5D5F600C57599 /* main.m */,
+				E6DA32151AC5D78800C57599 /* MyMapOverlay.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -200,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6DA31F01AC5D5F700C57599 /* Main.storyboard in Resources */,
+				E60099DC1ACB361B00868360 /* redCircle.png in Resources */,
 				E6DA31F51AC5D5F700C57599 /* LaunchScreen.xib in Resources */,
 				E6DA31F21AC5D5F700C57599 /* Images.xcassets in Resources */,
 			);
@@ -219,7 +244,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6DA320F1AC5D60F00C57599 /* CustomMapOverlay.m in Sources */,
 				E6DA31ED1AC5D5F700C57599 /* ViewController.m in Sources */,
+				E60099DA1ACB35FD00868360 /* YHAnimatedCircleView.m in Sources */,
+				E6DA32141AC5D72100C57599 /* WildcardGestureRecognizer.m in Sources */,
 				E6DA31EA1AC5D5F600C57599 /* AppDelegate.m in Sources */,
 				E6DA31E71AC5D5F600C57599 /* main.m in Sources */,
 			);
@@ -414,6 +442,7 @@
 				E6DA32061AC5D5F700C57599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6DA32071AC5D5F700C57599 /* Build configuration list for PBXNativeTarget "MyMapOverlayTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +451,7 @@
 				E6DA32091AC5D5F700C57599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

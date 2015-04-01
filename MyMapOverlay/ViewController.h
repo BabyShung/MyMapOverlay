@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import "CustomMapOverlay.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<MKMapViewDelegate, CustomMapDelegate>
+{
+    MKCircle *circle;
+    MKPointAnnotation *point;
+}
 
+@property (weak, nonatomic) IBOutlet UILabel *distanceLabel;
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @end
 

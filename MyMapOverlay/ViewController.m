@@ -10,7 +10,6 @@
 #import "WildcardGestureRecognizer.h"
 #import "ADCAnnotationView.h"
 
-/* Default Location */
 #define ADC_LATITUDE 38.916440
 #define ADC_LONGITUDE -77.226710
 #define ZOOM_DISTANCE 500
@@ -129,7 +128,8 @@ bool panEnabled = YES;
             }
             
             
-            double meterDistance = (mapPoint.y - lastPoint.y) / MKMapPointsPerMeterAtLatitude(self.mapView.centerCoordinate.latitude)+oldoffset;
+            double meterDistance = (mapPoint.y - lastPoint.y) / MKMapPointsPerMeterAtLatitude(self.mapView.centerCoordinate.latitude) + oldoffset;
+            
             if(meterDistance > 0){
                 [circleView setCircleRadius:meterDistance];
             }
